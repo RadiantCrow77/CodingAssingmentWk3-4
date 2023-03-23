@@ -13,7 +13,7 @@ public class CodingAssignmentWk3 {
 
 	public static void main(String[] args) {
 //1. Create an int array called ages with: 3, 9, 23, 64, 2, 8, 28, 93.
-	int[] ages = {3, 9, 23, 64, 2, 8, 28, 93};
+	int[] ages = {3, 9, 23, 64, 2, 8, 28, 90};
 
 	// a. Programmatically subtract the first element from the last element and print
 	int subtract = ages[0]-(ages[ages.length-1]);
@@ -104,7 +104,7 @@ System.out.println(gr100(intArr));
 System.out.println("Buy a drink today? "+willBuyDrink(isHotOutside,moneyInPocket));
 	
 //13. my method checks how many players and chooses a game mode
-	int numPlayers=1;
+	int numPlayers=0;
 	System.out.println("Game Mode: "+setGameMode(numPlayers));
 	} // end main
 	
